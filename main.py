@@ -163,7 +163,7 @@ def main(page: ft.Page):
         page.clean()
         page.add(
             ft.Text("Answer Screen", size=32, weight=ft.FontWeight.BOLD),
-            ft.Text(x, size=16, color=ft.Colors.GREY_400),
+            ft.Text(x, size=16, color=ft.Colors.BLACK),
             ft.Container(height=30),
             ft.Button(
                 content=ft.Text("Next Item", size=16, weight=ft.FontWeight.BOLD),
