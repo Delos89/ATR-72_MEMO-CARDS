@@ -76,11 +76,11 @@ def main(page: ft.Page):
                 "• If icing conditions -> FLAPS: MAINTAIN 15°\n"
                 "► PL (affected ENG): FI\n"
                 "► CL (affected ENG): FTR THEN FUEL S.O.\n"
-                "► FIRE HANDLE (affected ENG): PULL\n\n"
+                "► FIRE HANDLE (affected ENG): PULL\n"
                 "If fire persists after 10 s:\n"
                 "► AGENT 1 (affected ENG): DISCH\n\n"
                 "If fire persists 30 s after AGENT 1 DISCH:\n"
-                "► AGENT 2 (affected ENG): DISCH\n\n"
+                "► AGENT 2 (affected ENG): DISCH\n"
                 "Note: Captain may decide to shut down affected engine before reaching acceleration altitude, but not before 400 ft AGL."
             ),
             (
@@ -115,15 +115,15 @@ def main(page: ft.Page):
             (
                 "ENG 1(2) FLAME OUT AT TAKEOFF",
                 "► AUTOFEATHER: CHECK\n"
-                "► UPTRIM: CHECK\n\n"
+                "► UPTRIM: CHECK\n"
                 "If no UPTRIM:\n"
-                "► PL 1+2: ADVANCE TO THE RAMP\n\n"
+                "► PL 1+2: ADVANCE TO THE RAMP\n"
                 "WHEN AIRBORNE:\n"
-                "► LDG GEAR: UP\n\n"
+                "► LDG GEAR: UP\n"
                 "If NO BLEEDS 1+2 FAULT:\n"
-                "► BLEEDS 1+2: OFF\n\n"
+                "► BLEEDS 1+2: OFF\n"
                 "AT ACCELERATION ALTITUDE:\n"
-                "► ALT MODE: SET\n\n"
+                "► ALT MODE: SET\n"
                 "AT VFTO:\n"
                 "► PL 1+2: IN THE NOTCH\n"
                 "► PWR MGT: MCT\n"
@@ -150,7 +150,7 @@ def main(page: ft.Page):
             ),
             (
                 "RNP LNAV GUIDANCE DISAGREE",
-                "► BOTH LATERAL DEVIATIONS: COMPARE\n\n"
+                "► BOTH LATERAL DEVIATIONS: COMPARE\n"
                 "During approach:\n"
                 "► GO-AROUND: PERFORM"
             ),
@@ -159,11 +159,11 @@ def main(page: ft.Page):
                 "► AP/YD: OFF\n"
                 "► FD: STBY\n"
                 "► PITCH: MAINTAIN\n"
-                "► TQ: MAINTAIN\n\n"
+                "► TQ: MAINTAIN\n"
                 "If at takeoff or GA below 1,500 ft:\n"
                 "► PITCH: 8° IMMEDIATELY\n"
                 "► ICING CONDITIONS: ESCAPE\n"
-                "► VOLCANIC ASHES CONDITIONS: ESCAPE\n\n"
+                "► VOLCANIC ASHES CONDITIONS: ESCAPE\n"
                 "CAUTION: Unreliable airspeed indication procedure has to be applied only when the three airspeed sources (both ADC and IESI) indications differ."
             ),
             (
@@ -173,9 +173,9 @@ def main(page: ft.Page):
             (
                 "FLAPS UNLK",
                 "Before V1:\n"
-                "► TAKEOFF: ABORT\n\n"
+                "► TAKEOFF: ABORT\n"
                 "After V1:\n"
-                "► VR & V2 SPEED BUGS AUTOMATICALLY INCREASED\n\n"
+                "► VR & V2 SPEED BUGS AUTOMATICALLY INCREASED\n"
                 "If FLAPS UNLK during approach:\n"
                 "► GO-AROUND: PERFORM\n"
                 "► VGA: NOT LESS THAN Vmin OPS"
@@ -193,7 +193,7 @@ def main(page: ft.Page):
             ),
             (
                 "ENG 1(2) FLAME OUT IN FLIGHT",
-                "► PL (affected ENG): FI\n\n"
+                "► PL (affected ENG): FI\n"
                 "If NH drops below 30% (no immediate relight):\n"
                 "► CL (affected ENG): FTR THEN FUEL S.O."
             ),
